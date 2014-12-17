@@ -177,6 +177,15 @@ img.logo {
 	margin:0px;
 }
 
+#video {
+	width: 550px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	display:block;
+}
+
+
 
 /* ==========================================================================
    Helper classes
