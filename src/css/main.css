@@ -115,13 +115,14 @@ textarea {
 h1.eha {
 	float:left;
 	line-height:15px;
-	margin-top: 60px;
+	margin-top: 80px;
 	margin-bottom: 0px;
 }
 
 img.logo {
 	width: 82px;
 	height: 90px;
+	padding:10px;
 	float: right;
 }
 
@@ -195,6 +196,91 @@ img.logo {
 
 p#small {
 	font-size: 12px;
+}
+
+#top_text, #bottom_img {
+	float: left;
+	vertical-align: center;  
+}
+
+#top_text, #bottom_text {
+	width: 550px;
+}
+
+#top_text p {
+	clear:both;
+	text-align: justify;
+}
+
+#bottom_text p {
+	clear:both;
+	text-align: justify;
+	-moz-text-align-last: right; /* Code for Firefox */
+	text-align-last: right;
+}
+
+#top_img, #bottom_text {
+	float: right;
+	vertical-align: center;  
+}
+
+#top_img, #bottom_img {
+	width: 220px;
+	margin-top: 50px;
+}
+
+/* ==========================================================================
+   Form CSS
+   ========================================================================== */
+
+#register-form {
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #000000;
+	border-radius: 25px 25px 25px 25px;
+	margin-top: 25px;
+}
+#form-content {
+	margin: 10px 25px;
+}
+.fieldgroup label { 
+	width: 175px;
+	text-align: right;
+	float:left;	
+}
+
+p.right {
+	text-align: center;
+	width: 400px;
+}
+
+input {
+	width: 200px;
+	margin-left: 10px;
+	float: right;
+}
+
+input .submit {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#register-form .submit {
+	padding: 10px;
+	width: 220px;
+	height: 40px !important;
+	margin-left: 95px;
+	margin-right: 95px;
+}
+
+#register-form .fieldgroup label.error {
+	color: #FB3A3A;
+	display: inline-block;
+	margin: 4px 0 5px 125px;
+	padding: 0;
+	text-align: left;
+	width: 220px;
 }
 
 /* ==========================================================================

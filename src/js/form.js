@@ -14,9 +14,9 @@
 							required: true,
 							email: true
 						},
-						password: {
+						comments: {
 							required: true,
-							minlength: 8
+							maxlength: 1200
 							},
 						agree: "required"
 					},
@@ -24,8 +24,8 @@
 						firstname: "Please enter your first name",
 						lastname: "Please enter your lastname",
 						password: {
-							required: "Please provide a password",
-							minlength: "Your password must be at least 8 characters long"
+							required: "Please provide a comment",
+							maxlength: "Your comments must be less than 1200 characters."
 							},
 						email: "Please enter a valid email address",
 						agree: "Please accept our policy"
