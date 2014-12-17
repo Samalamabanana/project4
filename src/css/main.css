@@ -9,10 +9,13 @@
    ========================================================================== */
 
 html {
-    color: #222;
-    font-size: 1em;
+    color: #1E1E1E;
+    font-size: 20px;
     line-height: 1.4;
+    background-color: #DCDCDC;
+    font-family: "Myriad Pro", Helvetica, Sans-serif;
 }
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -92,21 +95,87 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#page {
+	width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+#wrapper {
+	width: 791px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color; #fff;
+}
 
+#wrapper h1 {
+	font-size:30px;
+}
 
+h1.eha {
+	float:left;
+	line-height:15px;
+	margin-top: 60px;
+	margin-bottom: 0px;
+}
 
+img.logo {
+	width: 82px;
+	height: 90px;
+	float: right;
+}
 
+#footer {
+	clear: both;
+}
 
+#nav {
+	background-color: #1E1E1E;
+	height: 57px;
+}
 
+#primary_links {
+	line-height:57px;
+	vertical-align: center;
+}
 
+#primary_links ul {
+	margin: 0px;
+	padding: 0px;
+}
 
+#primary_links li {
+	display: inline;
+	margin: 0px;
+}
 
+#primary_links a {
+	text-decoration: none;
+	color: #dcdcdc;
+}
+#primary_links .la {
+	padding-left: 43.5px;
+	padding-right: 43.5px;
+	margin: 0px;
+}
 
+#primary_links .lb {
+	padding-left: 23px;
+	padding-right: 23px;
+	margin: 0px;
+}
 
+#primary_links .lc {
+	padding-left: 29px;
+	padding-right: 29px;
+	margin:0px;
+}
 
-
-
+#primary_links .ld {
+	padding-left: 17.5px;
+	padding-right: 17.5px;
+	margin:0px;
+}
 
 
 /* ==========================================================================

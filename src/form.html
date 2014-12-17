@@ -12,7 +12,10 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="js/vendor/modernizr-2.8.3.min.js"></script>
+  	<script type="text/javascript" src="js/form.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -21,35 +24,41 @@
 
         <!-- Add your site or application content here -->
 
-	<div id="page">
-		<div id="wrapper">
-			<h1 class="eha"> The Early History of Apple</h1>
-			<img class="logo" src="img/rainbow_apple.png" alt="Apple Rainbow Logo">
-		</div>
-		<div id="footer"></div>
-	
-		<div id="nav">	
-			<div id=wrapper>
-				<div id="primary_links">
-					<ul>
-						<li class="la"><a href="index.html">Home</a></li>
-						<li class="lb"><a href="page2.html">The Begining</a></li>
-						<li class="lc"><a href="page3.html">The Apple II</a></li>
-						<li class="ld"><a href="page4.html">The Macintosh</a></li>
-						<li class="lb"><a href="form.html">Contact Us</a></li>
-					</ul>
-				</div>
+<form action="" method="post" id="register-form" novalidate="novalidate">
+
+<h2> User Registration</h2>
+	<div id="form-content">
+		<fieldset>
+
+			<div class="fieldgroup">
+				<label for="firstname">First Name:</label>
+				<input type="text" name="firstname"/>
 			</div>
-		</div>
+
+			<div class="fieldgroup">
+				<label for="lastname">Last Name:</label>
+				<input type="text" name="lastname"/>
+			</div>
+			
+			<div class="fieldgroup">
+				<label for="email">Email:</label>
+				<input type="text" name="email"/>
+			</div>
+			
+			<div class="fieldgroup">
+				<label for="Password">Password:</label>
+				<input type="password" name="password"/>
+			</div>
 	
-	
-	
+			<div class="fieldgroup">
+				<p class="right"> By clicking register you agree to our <a target="_blank" href="#">policy</a>.</p>
+				<input type="submit" value="Register" class="submit" />
+			</div>
+
+		</fieldset>
 	</div>
+</form>
 
-
-
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
